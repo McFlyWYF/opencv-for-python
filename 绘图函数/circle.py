@@ -1,6 +1,10 @@
 import cv2
 import numpy as np
 
+'''
+画圆
+'''
+
 img = np.zeros((512,512,3),np.uint8)
 
 #指定中心坐标和半径

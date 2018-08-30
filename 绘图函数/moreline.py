@@ -4,18 +4,23 @@
 
 import numpy as np
 import cv2
+import matplotlib.pyplot as plt
 
 '''
 需要指出每个顶点的坐标，用点的坐标构建一个大小等于行数X1X2的数组，
 行数就是点的数目，数组数据类型是int32
 '''
-img = np.zeros((512,512,3),np.uint8)
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
 
-pts = np.array([[10,5],[20,30],[70,20],[50,10]],np.int32)
-pts = pts.reshape((-1,1,2))#如果第三个参数是False,得到的多边形是不闭合的
+a = np.array([[[10,10], [100,10], [120,100], [10,120]]], dtype = np.int32)
+print(a.shape)
 
-cv2.polylines(img,pts,True,(255,0,0),5)
-
-cv2.imshow('image',img)
+im = np.zeros([240, 320], dtype = np.uint8)
+cv2.polylines(im, a, True, 255)#第三个参数是False的话，多边形是不闭合的
+# plt.imshow(im)
+# plt.show()
+cv2.imshow('image',im)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
