@@ -27,6 +27,7 @@ res = cv2.resize(img,None,fx = 2,fy = 2,interpolation=cv2.INTER_CUBIC)
 height,width = img.shape[:2]
 res = cv2.resize(img,(2 * width,2 * height),interpolation=cv2.INTER_CUBIC)
 
+cv2.imwrite('res1.png',res)
 plt.subplot(121)
 plt.imshow(img)
 plt.subplot(122)
@@ -49,7 +50,7 @@ a = np.float32([[1,0,100],[0,1,50]])
 rows,cols = img.shape[:2]
 
 res1 = cv2.warpAffine(img,a,(rows,cols))#图像，变换矩阵，变换后大小
-
+cv2.imwrite('res2.png',res1)
 plt.subplot(121)
 plt.imshow(img1)
 plt.subplot(122)
@@ -78,6 +79,7 @@ rows,cols = img2.shape[:2]
 M = cv2.getRotationMatrix2D((cols/2,rows/2),45,1)
 #第三个参数：变换后的图像大小
 res = cv2.warpAffine(img2,M,(rows,cols))
+cv2.imwrite('res3.png',res)
 
 plt.subplot(121)
 plt.imshow(img2)
@@ -102,6 +104,8 @@ M = cv2.getAffineTransform(pst1,pst2)
 
 #第三个参数，变换后的图像大小
 res = cv2.warpAffine(img3,M,(rows,cols))
+cv2.imwrite('res4.png',res)
+
 plt.subplot(121)
 plt.imshow(img3)
 plt.subplot(122)
@@ -124,6 +128,7 @@ pts2 = np.float32([[0,0],[200,0],[0,200],[200,200]])
 
 M = cv2.getPerspectiveTransform(pts1,pts2)
 res = cv2.warpPerspective(img4,M,(300,300))
+cv2.imwrite('res5.png',res)
 
 plt.subplot(121)
 plt.imshow(img4)
