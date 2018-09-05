@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b61fe65d-79bb-48e0-b2b8-612975369041" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py" afterPath="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/opencv_for_python$showVideo.coverage" NAME="showVideo Coverage Results" MODIFIED="1535597930306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$shape.coverage" NAME="shape Coverage Results" MODIFIED="1536154919707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析" />
     <SUITE FILE_PATH="coverage/opencv_for_python$feature__2_.coverage" NAME="feature (2) Coverage Results" MODIFIED="1536140481193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构" />
     <SUITE FILE_PATH="coverage/opencv_for_python$read_image.coverage" NAME="read_image Coverage Results" MODIFIED="1535596850471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图片" />
     <SUITE FILE_PATH="coverage/opencv_for_python$mouseCallback.coverage" NAME="mouseCallback Coverage Results" MODIFIED="1535616070955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把鼠标当画笔" />
@@ -65,33 +65,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="edge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/1-初识轮廓/edge.py">
+      <file leaf-file-name="shape.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+            <state relative-caret-position="1227">
+              <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
               <folding>
-                <element signature="e#49#59#0" expanded="true" />
+                <element signature="e#302#312#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +132,7 @@
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py" />
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py" />
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py" />
+        <option value="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py" />
       </list>
     </option>
   </component>
@@ -198,6 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,32 +191,18 @@
             <path>
               <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="17-OpenCv中的轮廓" type="462c0819:PsiDirectoryNode" />
+              <item name="18-直方图" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="17-OpenCv中的轮廓" type="462c0819:PsiDirectoryNode" />
-              <item name="1-初识轮廓" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="17-OpenCv中的轮廓" type="462c0819:PsiDirectoryNode" />
-              <item name="4-轮廓函数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="17-OpenCv中的轮廓" type="462c0819:PsiDirectoryNode" />
-              <item name="5-轮廓的层次结构" type="462c0819:PsiDirectoryNode" />
+              <item name="18-直方图" type="462c0819:PsiDirectoryNode" />
+              <item name="1-直方图的计算，绘制与分析" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,18 +212,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\5-轮廓的层次结构" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\4-轮廓函数" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\1-初识轮廓" />
       <recent name="E:\opencv-for-python\11-图像阈值" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\18-直方图\1-直方图的计算，绘制与分析" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\5-轮廓的层次结构" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\4-轮廓函数" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.feature (2)">
+  <component name="RunManager" selected="Python.shape">
     <configuration name="feature (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,25 +272,6 @@
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="feature" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-for-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,20 +315,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="shape" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-for-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.feature" />
-      <item index="1" class="java.lang.String" itemvalue="Python.feature (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.function" />
-      <item index="3" class="java.lang.String" itemvalue="Python.matchShapeExample" />
-      <item index="4" class="java.lang.String" itemvalue="Python.feature (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.feature (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.function" />
+      <item index="2" class="java.lang.String" itemvalue="Python.matchShapeExample" />
+      <item index="3" class="java.lang.String" itemvalue="Python.feature (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.shape" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.feature (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.matchShapeExample" />
-        <item index="2" class="java.lang.String" itemvalue="Python.function" />
-        <item index="3" class="java.lang.String" itemvalue="Python.feature (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.feature" />
+        <item index="0" class="java.lang.String" itemvalue="Python.shape" />
+        <item index="1" class="java.lang.String" itemvalue="Python.feature (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.matchShapeExample" />
+        <item index="3" class="java.lang.String" itemvalue="Python.function" />
+        <item index="4" class="java.lang.String" itemvalue="Python.feature (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -485,6 +454,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -492,10 +462,9 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30219147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51773834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51773834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -505,6 +474,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -532,23 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/img3_bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/operator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2256">
-          <caret line="95" column="31" lean-forward="false" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-颜色空间转换/hourse_gray.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9-颜色空间转换/blue.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -770,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
           <caret line="157" column="20" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
-          <folding>
-            <element signature="e#88#98#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-387">
           <caret line="75" column="33" lean-forward="false" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
-          <folding>
-            <element signature="e#31#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,25 +759,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-          <folding>
-            <element signature="e#49#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/1-初识轮廓/edge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/lake.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/flat.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1227">
+          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <element signature="e#302#312#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
