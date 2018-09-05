@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b61fe65d-79bb-48e0-b2b8-612975369041" name="Default" comment="" />
+    <list default="true" id="b61fe65d-79bb-48e0-b2b8-612975369041" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py" afterPath="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/opencv_for_python$showVideo.coverage" NAME="showVideo Coverage Results" MODIFIED="1535597930306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$feature__2_.coverage" NAME="feature (2) Coverage Results" MODIFIED="1536140481193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构" />
     <SUITE FILE_PATH="coverage/opencv_for_python$read_image.coverage" NAME="read_image Coverage Results" MODIFIED="1535596850471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图片" />
     <SUITE FILE_PATH="coverage/opencv_for_python$mouseCallback.coverage" NAME="mouseCallback Coverage Results" MODIFIED="1535616070955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把鼠标当画笔" />
     <SUITE FILE_PATH="coverage/opencv_for_python$operator.coverage" NAME="operator Coverage Results" MODIFIED="1535680711019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图像上的算术运算" />
@@ -18,6 +22,7 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$saveVideo.coverage" NAME="saveVideo Coverage Results" MODIFIED="1535598380629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
     <SUITE FILE_PATH="coverage/opencv_for_python$canny_edge.coverage" NAME="canny_edge Coverage Results" MODIFIED="1535966570204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-Canny边缘检测" />
     <SUITE FILE_PATH="coverage/opencv_for_python$draw_circle_rectangle.coverage" NAME="draw_circle_rectangle Coverage Results" MODIFIED="1535616085603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把鼠标当画笔" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$function.coverage" NAME="function Coverage Results" MODIFIED="1536137025871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$color_exchange.coverage" NAME="color_exchange Coverage Results" MODIFIED="1535684443108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/颜色空间转换" />
     <SUITE FILE_PATH="coverage/opencv_for_python$image.coverage" NAME="image Coverage Results" MODIFIED="1535773943487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-图像阈值" />
     <SUITE FILE_PATH="coverage/opencv_for_python$video.coverage" NAME="video Coverage Results" MODIFIED="1535597621698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
@@ -25,11 +30,13 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$pallet.coverage" NAME="pallet Coverage Results" MODIFIED="1535965626636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-滑动条做调色板" />
     <SUITE FILE_PATH="coverage/opencv_for_python$feature.coverage" NAME="feature Coverage Results" MODIFIED="1536053758142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征" />
     <SUITE FILE_PATH="coverage/opencv_for_python$edge.coverage" NAME="edge Coverage Results" MODIFIED="1536048360174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$matchShapeExample.coverage" NAME="matchShapeExample Coverage Results" MODIFIED="1536139771169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$moreline.coverage" NAME="moreline Coverage Results" MODIFIED="1535613243912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$exchange.coverage" NAME="exchange Coverage Results" MODIFIED="1535723410214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-几何变换" />
     <SUITE FILE_PATH="coverage/opencv_for_python$gradient.coverage" NAME="gradient Coverage Results" MODIFIED="1535962574033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-图像梯度" />
     <SUITE FILE_PATH="coverage/opencv_for_python$putText.coverage" NAME="putText Coverage Results" MODIFIED="1535601599123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$palletExample.coverage" NAME="palletExample Coverage Results" MODIFIED="1535617492730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-滑动条做调色板" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$feature__1_.coverage" NAME="feature (1) Coverage Results" MODIFIED="1536136408530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质" />
     <SUITE FILE_PATH="coverage/opencv_for_python$makeShape.coverage" NAME="makeShape Coverage Results" MODIFIED="1535601503744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$polylinesTest.coverage" NAME="polylinesTest Coverage Results" MODIFIED="1535613580649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$line.coverage" NAME="line Coverage Results" MODIFIED="1535600941728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
@@ -61,22 +68,30 @@
       <file leaf-file-name="edge.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/1-初识轮廓/edge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-              <folding>
-                <element signature="e#502#520#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="feature.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py">
+        <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="175" column="23" lean-forward="true" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
+            <state relative-caret-position="387">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
               <folding>
-                <element signature="e#88#98#0" expanded="true" />
+                <element signature="e#49#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +148,10 @@
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/edge.py" />
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/a.py" />
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py" />
+        <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/feature.py" />
+        <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py" />
+        <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py" />
+        <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py" />
       </list>
     </option>
   </component>
@@ -195,7 +214,19 @@
               <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
               <item name="17-OpenCv中的轮廓" type="462c0819:PsiDirectoryNode" />
-              <item name="2-轮廓特征" type="462c0819:PsiDirectoryNode" />
+              <item name="1-初识轮廓" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
+              <item name="17-OpenCv中的轮廓" type="462c0819:PsiDirectoryNode" />
+              <item name="4-轮廓函数" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
+              <item name="17-OpenCv中的轮廓" type="462c0819:PsiDirectoryNode" />
+              <item name="5-轮廓的层次结构" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,17 +243,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\5-轮廓的层次结构" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\4-轮廓函数" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\1-初识轮廓" />
       <recent name="E:\opencv-for-python\11-图像阈值" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓" />
-      <recent name="E:\opencv-for-python\16-图像金字塔" />
-      <recent name="E:\opencv-for-python\15-Canny边缘检测" />
-      <recent name="E:\opencv-for-python\14-图像梯度" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,59 +269,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.feature">
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.feature (2)">
+    <configuration name="feature (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/feature.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="canny_edge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="feature (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15-Canny边缘检测" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15-Canny边缘检测/canny_edge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="edge" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-for-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\opencv-for-python\17-OpenCv中的轮廓\1-初识轮廓\edge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,39 +327,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="imagePyramid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16-图像金字塔" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16-图像金字塔/imagePyramid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="matchShapeExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-for-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.canny_edge" />
-      <item index="1" class="java.lang.String" itemvalue="Python.imagePyramid" />
-      <item index="2" class="java.lang.String" itemvalue="Python.edge" />
-      <item index="3" class="java.lang.String" itemvalue="Python.feature" />
-      <item index="4" class="java.lang.String" itemvalue="Python.a" />
+      <item index="0" class="java.lang.String" itemvalue="Python.feature" />
+      <item index="1" class="java.lang.String" itemvalue="Python.feature (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.function" />
+      <item index="3" class="java.lang.String" itemvalue="Python.matchShapeExample" />
+      <item index="4" class="java.lang.String" itemvalue="Python.feature (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.feature" />
-        <item index="1" class="java.lang.String" itemvalue="Python.a" />
-        <item index="2" class="java.lang.String" itemvalue="Python.edge" />
-        <item index="3" class="java.lang.String" itemvalue="Python.imagePyramid" />
-        <item index="4" class="java.lang.String" itemvalue="Python.canny_edge" />
+        <item index="0" class="java.lang.String" itemvalue="Python.feature (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.matchShapeExample" />
+        <item index="2" class="java.lang.String" itemvalue="Python.function" />
+        <item index="3" class="java.lang.String" itemvalue="Python.feature (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +485,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -461,9 +492,10 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30219147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51773834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51773834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -473,7 +505,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -501,64 +532,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4-把鼠标当画笔/draw_circle_rectangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-图像的基本操作/hourse_gray.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3-绘图函数/opencv_logo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-图片/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-图像的基本操作/image_Function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="98" column="18" lean-forward="false" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/add.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/mix.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/img4_fg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/img3_new.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7-图像上的算术运算/img3_bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -697,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <element signature="e#244#254#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="57" />
-          <folding>
-            <element signature="e#509#519#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,9 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-645">
           <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#310#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,18 +742,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/1-初识轮廓/edge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="e#502#520#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/a.py" />
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/hourse.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/test.png">
@@ -797,21 +766,74 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/a.py">
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="-93">
+          <caret line="157" column="20" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
+          <folding>
+            <element signature="e#88#98#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/star.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/test2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="75" column="33" lean-forward="false" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="e#31#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding>
+            <element signature="e#49#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/1-初识轮廓/edge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征/feature.py">
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="175" column="23" lean-forward="true" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
-          <folding>
-            <element signature="e#88#98#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="387">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

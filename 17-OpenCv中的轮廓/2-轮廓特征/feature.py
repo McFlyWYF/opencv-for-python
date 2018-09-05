@@ -155,7 +155,7 @@ cv2.destroyAllWindows()
 
 '''
 椭圆拟合
-函数：cv2.ellipse()返回值时旋转边界矩形的内切圆
+函数：cv2.ellipse()返回值是旋转边界矩形的内切圆
 '''
 
 ellipse = cv2.fitEllipse(cnt)
