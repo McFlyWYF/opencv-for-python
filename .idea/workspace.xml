@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b61fe65d-79bb-48e0-b2b8-612975369041" name="Default" comment="">
+    <list default="true" id="b61fe65d-79bb-48e0-b2b8-612975369041" name="Default" comment=":sparkles:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py" afterPath="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +14,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/opencv_for_python$showVideo.coverage" NAME="showVideo Coverage Results" MODIFIED="1535597930306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
-    <SUITE FILE_PATH="coverage/opencv_for_python$shape.coverage" NAME="shape Coverage Results" MODIFIED="1536154919707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$shape.coverage" NAME="shape Coverage Results" MODIFIED="1536223855914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析" />
     <SUITE FILE_PATH="coverage/opencv_for_python$feature__2_.coverage" NAME="feature (2) Coverage Results" MODIFIED="1536140481193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构" />
     <SUITE FILE_PATH="coverage/opencv_for_python$read_image.coverage" NAME="read_image Coverage Results" MODIFIED="1535596850471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图片" />
     <SUITE FILE_PATH="coverage/opencv_for_python$mouseCallback.coverage" NAME="mouseCallback Coverage Results" MODIFIED="1535616070955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把鼠标当画笔" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$2D.coverage" NAME="2D Coverage Results" MODIFIED="1536235286604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/3-2D直方图" />
     <SUITE FILE_PATH="coverage/opencv_for_python$operator.coverage" NAME="operator Coverage Results" MODIFIED="1535680711019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图像上的算术运算" />
     <SUITE FILE_PATH="coverage/opencv_for_python$program.coverage" NAME="program Coverage Results" MODIFIED="1535682457136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/程序性能检测及优化" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$shape__2_.coverage" NAME="shape (2) Coverage Results" MODIFIED="1536238922790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/4-直方图反向投影" />
     <SUITE FILE_PATH="coverage/opencv_for_python$saveVideo.coverage" NAME="saveVideo Coverage Results" MODIFIED="1535598380629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
     <SUITE FILE_PATH="coverage/opencv_for_python$canny_edge.coverage" NAME="canny_edge Coverage Results" MODIFIED="1535966570204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-Canny边缘检测" />
     <SUITE FILE_PATH="coverage/opencv_for_python$draw_circle_rectangle.coverage" NAME="draw_circle_rectangle Coverage Results" MODIFIED="1535616085603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把鼠标当画笔" />
@@ -35,10 +38,12 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$exchange.coverage" NAME="exchange Coverage Results" MODIFIED="1535723410214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-几何变换" />
     <SUITE FILE_PATH="coverage/opencv_for_python$gradient.coverage" NAME="gradient Coverage Results" MODIFIED="1535962574033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-图像梯度" />
     <SUITE FILE_PATH="coverage/opencv_for_python$putText.coverage" NAME="putText Coverage Results" MODIFIED="1535601599123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$shape__1_.coverage" NAME="shape (1) Coverage Results" MODIFIED="1536227581718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/2-直方图均衡化" />
     <SUITE FILE_PATH="coverage/opencv_for_python$palletExample.coverage" NAME="palletExample Coverage Results" MODIFIED="1535617492730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-滑动条做调色板" />
     <SUITE FILE_PATH="coverage/opencv_for_python$feature__1_.coverage" NAME="feature (1) Coverage Results" MODIFIED="1536136408530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质" />
     <SUITE FILE_PATH="coverage/opencv_for_python$makeShape.coverage" NAME="makeShape Coverage Results" MODIFIED="1535601503744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$polylinesTest.coverage" NAME="polylinesTest Coverage Results" MODIFIED="1535613580649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$change.coverage" NAME="change Coverage Results" MODIFIED="1536239634401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-图像变换/1-傅里叶变换" />
     <SUITE FILE_PATH="coverage/opencv_for_python$line.coverage" NAME="line Coverage Results" MODIFIED="1535600941728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$rectangle.coverage" NAME="rectangle Coverage Results" MODIFIED="1535613345992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$a.coverage" NAME="a Coverage Results" MODIFIED="1536053213887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征" />
@@ -65,13 +70,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="shape.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py">
+      <file leaf-file-name="change.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/19-图像变换/1-傅里叶变换/change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1227">
-              <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
-                <element signature="e#302#312#0" expanded="true" />
+                <element signature="e#252#262#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shape.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/18-直方图/4-直方图反向投影/shape.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="e#253#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +150,10 @@
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py" />
         <option value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py" />
         <option value="$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py" />
+        <option value="$PROJECT_DIR$/18-直方图/2-直方图均衡化/shape.py" />
+        <option value="$PROJECT_DIR$/18-直方图/3-2D直方图/2D.py" />
+        <option value="$PROJECT_DIR$/18-直方图/4-直方图反向投影/shape.py" />
+        <option value="$PROJECT_DIR$/19-图像变换/1-傅里叶变换/change.py" />
       </list>
     </option>
   </component>
@@ -179,8 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,18 +210,20 @@
             <path>
               <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="18-直方图" type="462c0819:PsiDirectoryNode" />
+              <item name="19-图像变换" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="18-直方图" type="462c0819:PsiDirectoryNode" />
-              <item name="1-直方图的计算，绘制与分析" type="462c0819:PsiDirectoryNode" />
+              <item name="19-图像变换" type="462c0819:PsiDirectoryNode" />
+              <item name="1-傅里叶变换" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,18 +233,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\19-图像变换\1-傅里叶变换" />
+      <recent name="E:\opencv-for-python\18-直方图\4-直方图反向投影" />
+      <recent name="E:\opencv-for-python\18-直方图\3-2D直方图" />
+      <recent name="E:\opencv-for-python\18-直方图\2-直方图均衡化" />
+      <recent name="E:\opencv-for-python\18-直方图\1-直方图的计算，绘制与分析" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\1-初识轮廓" />
       <recent name="E:\opencv-for-python\11-图像阈值" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\opencv-for-python\18-直方图\1-直方图的计算，绘制与分析" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\5-轮廓的层次结构" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\4-轮廓函数" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
-      <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,78 +259,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.shape">
-    <configuration name="feature (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.change">
+    <configuration name="2D" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18-直方图/3-2D直方图" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/feature.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18-直方图/3-2D直方图/2D.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="feature (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="change" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19-图像变换/1-傅里叶变换" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19-图像变换/1-傅里叶变换/change.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="shape (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18-直方图/2-直方图均衡化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18-直方图/2-直方图均衡化/shape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="matchShapeExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="shape (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18-直方图/4-直方图反向投影" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18-直方图/4-直方图反向投影/shape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,19 +356,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.feature (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.function" />
-      <item index="2" class="java.lang.String" itemvalue="Python.matchShapeExample" />
-      <item index="3" class="java.lang.String" itemvalue="Python.feature (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.shape" />
+      <item index="0" class="java.lang.String" itemvalue="Python.shape" />
+      <item index="1" class="java.lang.String" itemvalue="Python.shape (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.2D" />
+      <item index="3" class="java.lang.String" itemvalue="Python.shape (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.change" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.shape" />
-        <item index="1" class="java.lang.String" itemvalue="Python.feature (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.matchShapeExample" />
-        <item index="3" class="java.lang.String" itemvalue="Python.function" />
-        <item index="4" class="java.lang.String" itemvalue="Python.feature (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.change" />
+        <item index="1" class="java.lang.String" itemvalue="Python.shape (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2D" />
+        <item index="3" class="java.lang.String" itemvalue="Python.shape (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.shape" />
       </list>
     </recent_temporary>
   </component>
@@ -449,20 +470,26 @@
       <option name="project" value="LOCAL" />
       <updated>1535977803255</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=":sparkles:绘制直方图">
+      <created>1536155007975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536155007975</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30219147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30219147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51773834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51773834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -493,7 +520,8 @@
     <MESSAGE value=":sparkles:形态学转换" />
     <MESSAGE value=":sparkles:边缘检测" />
     <MESSAGE value=":sparkles:图像金字塔" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:图像金字塔" />
+    <MESSAGE value=":sparkles:绘制直方图" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:绘制直方图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,47 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/9-颜色空间转换/blue.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8-程序性能检测及优化/program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-颜色空间转换/merge.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8-程序性能检测及优化/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-颜色空间转换/color_exchange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-几何变换/res3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-几何变换/res2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-几何变换/res4.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -741,13 +728,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="75" column="33" lean-forward="false" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -755,24 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/1-初识轮廓/edge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -786,12 +752,79 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1704">
+          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1227">
-          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/2-直方图均衡化/shape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/3-2D直方图/2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/4-直方图反向投影/flat.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-图像的基本操作/ball.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/4-直方图反向投影/ball.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-直方图/4-直方图反向投影/shape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="e#302#312#0" expanded="true" />
+            <element signature="e#253#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-图像变换/1-傅里叶变换/change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#252#262#0" expanded="true" />
           </folding>
         </state>
       </provider>

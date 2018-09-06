@@ -65,3 +65,25 @@ for i,col in enumerate(color):
     plt.plot(histr,color = col)
     plt.xlim([0,256])
 plt.show()
+
+
+'''
+使用掩模，统计局部区域，将要统计的部分设置为白色，其余为黑色
+'''
+
+#创建掩模
+mask = np.zeros(img.shape[:2],np.uint8)
+mask[100:300,100:400] = 255
+masked_img = cv2.bitwise_and(img,img,mask=mask)
+
+hist_full = cv2.calcHist([img],[0],None,[256],[0,256])
+hist_mask = cv2.calcHist([img],[0],mask,[256],[0,256])
+
+plt.subplot(221),plt.imshow(img,'gray')
+plt.subplot(222),plt.imshow(mask,'gray')
+plt.subplot(223),plt.imshow(masked_img,'gray')
+plt.subplot(224)
+plt.plot(hist_full)#整幅图的直方图
+plt.plot(hist_mask)#掩模后的直方图
+plt.xlim([0,256])
+plt.show()
