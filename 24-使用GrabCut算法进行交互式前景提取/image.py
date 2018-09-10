@@ -43,6 +43,7 @@ plt.imshow(img)
 plt.colorbar()
 plt.show()
 
+#找回头发，将前景标记为1，背景标记为0
 newmask = cv2.imread('messi.jpg',0)
 
 mask[newmask == 0] = 0
