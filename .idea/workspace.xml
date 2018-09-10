@@ -53,7 +53,7 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$ellipse.coverage" NAME="ellipse Coverage Results" MODIFIED="1535599987511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$circle.coverage" NAME="circle Coverage Results" MODIFIED="1535599696513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$image_Function.coverage" NAME="image_Function Coverage Results" MODIFIED="1535621511255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6-图像的基本操作" />
-    <SUITE FILE_PATH="coverage/opencv_for_python$image__2_.coverage" NAME="image (2) Coverage Results" MODIFIED="1536393484133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20-模板匹配/1-opencv中的模板匹配" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$image__2_.coverage" NAME="image (2) Coverage Results" MODIFIED="1536575006666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24-使用GrabCut算法进行交互式前景提取" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -72,12 +72,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="image.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/23-分水岭算法图像分割/image.py">
+        <entry file="file://$PROJECT_DIR$/24-使用GrabCut算法进行交互式前景提取/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="27">
+              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
-                <element signature="e#179#197#0" expanded="true" />
+                <element signature="e#381#391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/视频/video.py" />
         <option value="$PROJECT_DIR$/视频/showVideo.py" />
         <option value="$PROJECT_DIR$/视频/saveVideo.py" />
         <option value="$PROJECT_DIR$/绘图函数/rectangle.py" />
@@ -149,6 +148,7 @@
         <option value="$PROJECT_DIR$/21-Hough直线变换/2-概率霍夫变换/hough.py" />
         <option value="$PROJECT_DIR$/22-Hough圆环变换/exchange.py" />
         <option value="$PROJECT_DIR$/23-分水岭算法图像分割/image.py" />
+        <option value="$PROJECT_DIR$/24-使用GrabCut算法进行交互式前景提取/image.py" />
       </list>
     </option>
   </component>
@@ -195,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -217,19 +217,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\opencv-for-python\23-分水岭算法图像分割" />
-      <recent name="E:\opencv-for-python\22-Hough圆环变换" />
-      <recent name="E:\opencv-for-python\21-Hough直线变换\2-概率霍夫变换" />
-      <recent name="E:\opencv-for-python\21-Hough直线变换" />
-      <recent name="E:\opencv-for-python\20-模板匹配\2-多对象的模板匹配" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\opencv-for-python\21-Hough直线变换\1-opencv中的霍夫变换" />
       <recent name="E:\opencv-for-python\20-模板匹配\1-opencv中的模板匹配" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\1-初识轮廓" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\24-使用GrabCut算法进行交互式前景提取" />
+      <recent name="E:\opencv-for-python\23-分水岭算法图像分割" />
+      <recent name="E:\opencv-for-python\22-Hough圆环变换" />
+      <recent name="E:\opencv-for-python\21-Hough直线变换\2-概率霍夫变换" />
+      <recent name="E:\opencv-for-python\21-Hough直线变换" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image">
+  <component name="RunManager" selected="Python.image (2)">
     <configuration name="exchange" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,20 +302,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="image (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="image (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20-模板匹配/2-多对象的模板匹配" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24-使用GrabCut算法进行交互式前景提取" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20-模板匹配/2-多对象的模板匹配/image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24-使用GrabCut算法进行交互式前景提取/image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,19 +341,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.image (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.hough" />
-      <item index="2" class="java.lang.String" itemvalue="Python.hough (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.exchange" />
-      <item index="4" class="java.lang.String" itemvalue="Python.image" />
+      <item index="0" class="java.lang.String" itemvalue="Python.hough" />
+      <item index="1" class="java.lang.String" itemvalue="Python.hough (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.exchange" />
+      <item index="3" class="java.lang.String" itemvalue="Python.image" />
+      <item index="4" class="java.lang.String" itemvalue="Python.image (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.image" />
-        <item index="1" class="java.lang.String" itemvalue="Python.exchange" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hough (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.hough" />
-        <item index="4" class="java.lang.String" itemvalue="Python.image (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.image (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.image" />
+        <item index="2" class="java.lang.String" itemvalue="Python.exchange" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hough (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.hough" />
       </list>
     </recent_temporary>
   </component>
@@ -476,12 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536401565745</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":sparkles:分水岭算法图像分割">
+      <created>1536486355882</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536486355883</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -489,12 +495,12 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30219147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5487805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5487805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -502,8 +508,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +530,8 @@
     <MESSAGE value=":sparkles:绘制直方图" />
     <MESSAGE value=":sparkles:图像变换" />
     <MESSAGE value=":sparkles:模板匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:模板匹配" />
+    <MESSAGE value=":sparkles:分水岭算法图像分割" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:分水岭算法图像分割" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,23 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/15-Canny边缘检测/edges1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-滑动条做调色板/palletExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16-图像金字塔/laplace_pyramid.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16-图像金字塔/real.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -806,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="e#194#204#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,18 +808,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="e#49#59#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/23-分水岭算法图像分割/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="193">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
-            <element signature="e#179#197#0" expanded="true" />
+            <element signature="e#179#197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-使用GrabCut算法进行交互式前景提取/messi.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-几何变换/hourse.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-使用GrabCut算法进行交互式前景提取/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="e#381#391#0" expanded="true" />
           </folding>
         </state>
       </provider>
