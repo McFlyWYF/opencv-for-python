@@ -491,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536575324084</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary=":sparkles:角点检测">
+      <created>1536667329800</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536667329801</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -540,7 +547,8 @@
     <MESSAGE value=":sparkles:模板匹配" />
     <MESSAGE value=":sparkles:分水岭算法图像分割" />
     <MESSAGE value=":sparkles:前景提取" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:前景提取" />
+    <MESSAGE value=":sparkles:角点检测" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:角点检测" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
