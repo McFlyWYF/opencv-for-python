@@ -33,9 +33,11 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$video.coverage" NAME="video Coverage Results" MODIFIED="1535597621698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
     <SUITE FILE_PATH="coverage/opencv_for_python$image__1_.coverage" NAME="image (1) Coverage Results" MODIFIED="1536667255992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/26-角点检测&amp;跟踪图像特征" />
     <SUITE FILE_PATH="coverage/opencv_for_python$pallet.coverage" NAME="pallet Coverage Results" MODIFIED="1535965626636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-滑动条做调色板" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$opencv.coverage" NAME="opencv Coverage Results" MODIFIED="1536746711885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/32-特征匹配" />
     <SUITE FILE_PATH="coverage/opencv_for_python$feature.coverage" NAME="feature Coverage Results" MODIFIED="1536053758142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征" />
     <SUITE FILE_PATH="coverage/opencv_for_python$image__4_.coverage" NAME="image (4) Coverage Results" MODIFIED="1536740495174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/28-SURF" />
     <SUITE FILE_PATH="coverage/opencv_for_python$edge.coverage" NAME="edge Coverage Results" MODIFIED="1536048360174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$opencv1.coverage" NAME="opencv1 Coverage Results" MODIFIED="1536748052057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/32-特征匹配" />
     <SUITE FILE_PATH="coverage/opencv_for_python$matchShapeExample.coverage" NAME="matchShapeExample Coverage Results" MODIFIED="1536139771169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$moreline.coverage" NAME="moreline Coverage Results" MODIFIED="1535613243912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$exchange.coverage" NAME="exchange Coverage Results" MODIFIED="1536480648667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22-Hough圆环变换" />
@@ -75,13 +77,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="image.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/31-ORB/image.py">
+      <file leaf-file-name="opencv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/32-特征匹配/opencv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="625">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <element signature="e#100#110#0" expanded="true" />
+                <element signature="e#93#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opencv1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/32-特征匹配/opencv1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#52#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/绘图函数/circle.py" />
-        <option value="$PROJECT_DIR$/绘图函数/polylinesTest.py" />
         <option value="$PROJECT_DIR$/绘图函数/opencv_logo.py" />
         <option value="$PROJECT_DIR$/把鼠标当画笔/mouseCallback.py" />
         <option value="$PROJECT_DIR$/把鼠标当画笔/draw_circle_rectangle.py" />
@@ -153,6 +165,8 @@
         <option value="$PROJECT_DIR$/29-角点检测的FAST算法/29-角点检测的FAST算法.py" />
         <option value="$PROJECT_DIR$/30-BRIEF/image.py" />
         <option value="$PROJECT_DIR$/31-ORB/image.py" />
+        <option value="$PROJECT_DIR$/32-特征匹配/opencv.py" />
+        <option value="$PROJECT_DIR$/32-特征匹配/opencv1.py" />
       </list>
     </option>
   </component>
@@ -206,6 +220,11 @@
               <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
+              <item name="32-特征匹配" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,11 +248,11 @@
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\32-特征匹配" />
       <recent name="E:\opencv-for-python\31-ORB" />
       <recent name="E:\opencv-for-python\30-BRIEF" />
       <recent name="E:\opencv-for-python\29-角点检测的FAST算法" />
       <recent name="E:\opencv-for-python\28-SURF" />
-      <recent name="E:\opencv-for-python\27-SIFT" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image (2)">
+  <component name="RunManager" selected="Python.opencv1">
     <configuration name="29-角点检测的FAST算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,44 +306,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="image (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27-SIFT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-for-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27-SIFT/image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="image (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28-SURF" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-for-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28-SURF/image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,20 +325,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="opencv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/32-特征匹配" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-for-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32-特征匹配/opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="opencv1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/32-特征匹配" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-for-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32-特征匹配/opencv1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.image (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.image (4)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.29-角点检测的FAST算法" />
-      <item index="3" class="java.lang.String" itemvalue="Python.image" />
-      <item index="4" class="java.lang.String" itemvalue="Python.image (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.29-角点检测的FAST算法" />
+      <item index="1" class="java.lang.String" itemvalue="Python.image" />
+      <item index="2" class="java.lang.String" itemvalue="Python.image (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.opencv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.opencv1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.image (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.image" />
-        <item index="2" class="java.lang.String" itemvalue="Python.29-角点检测的FAST算法" />
-        <item index="3" class="java.lang.String" itemvalue="Python.image (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.image (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.opencv1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.opencv" />
+        <item index="2" class="java.lang.String" itemvalue="Python.image (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.image" />
+        <item index="4" class="java.lang.String" itemvalue="Python.29-角点检测的FAST算法" />
       </list>
     </recent_temporary>
   </component>
@@ -508,11 +527,19 @@
       <option name="project" value="LOCAL" />
       <updated>1536667371504</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=":sparkles:角点检测其他算法">
+      <created>1536744768292</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1536744768292</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -520,7 +547,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30219147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5820399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5820399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -558,7 +585,8 @@
     <MESSAGE value=":sparkles:分水岭算法图像分割" />
     <MESSAGE value=":sparkles:前景提取" />
     <MESSAGE value=":sparkles:角点检测" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:角点检测" />
+    <MESSAGE value=":sparkles:角点检测其他算法" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:角点检测其他算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -567,16 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/test2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/test.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数/matchShapeExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -871,17 +889,37 @@
         <state relative-caret-position="375">
           <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
-            <element signature="e#60#70#0" expanded="true" />
+            <element signature="e#60#70#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/31-ORB/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="576">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#100#110#0" expanded="true" />
+            <element signature="e#100#110#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/32-特征匹配/opencv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#93#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/32-特征匹配/opencv1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
