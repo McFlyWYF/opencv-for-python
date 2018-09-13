@@ -538,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536748259014</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=":art:视频分析">
+      <created>1536839863713</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1536839863715</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -590,7 +597,8 @@
     <MESSAGE value=":sparkles:角点检测" />
     <MESSAGE value=":sparkles:角点检测其他算法" />
     <MESSAGE value=":sparkles:特征匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:特征匹配" />
+    <MESSAGE value=":art:视频分析" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art:视频分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
