@@ -30,6 +30,7 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$opencv1.coverage" NAME="opencv1 Coverage Results" MODIFIED="1536748052057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/32-特征匹配" />
     <SUITE FILE_PATH="coverage/opencv_for_python$gradient.coverage" NAME="gradient Coverage Results" MODIFIED="1535962574033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-图像梯度" />
     <SUITE FILE_PATH="coverage/opencv_for_python$putText.coverage" NAME="putText Coverage Results" MODIFIED="1535601599123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$muchlight.coverage" NAME="muchlight Coverage Results" MODIFIED="1536916397449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/35-光流" />
     <SUITE FILE_PATH="coverage/opencv_for_python$hough__1_.coverage" NAME="hough (1) Coverage Results" MODIFIED="1536398486256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21-Hough直线变换/2-概率霍夫变换" />
     <SUITE FILE_PATH="coverage/opencv_for_python$polylinesTest.coverage" NAME="polylinesTest Coverage Results" MODIFIED="1535613580649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$change.coverage" NAME="change Coverage Results" MODIFIED="1536309055266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-图像变换/1-傅里叶变换" />
@@ -50,6 +51,7 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$opencv.coverage" NAME="opencv Coverage Results" MODIFIED="1536746711885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/32-特征匹配" />
     <SUITE FILE_PATH="coverage/opencv_for_python$feature.coverage" NAME="feature Coverage Results" MODIFIED="1536053758142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/2-轮廓特征" />
     <SUITE FILE_PATH="coverage/opencv_for_python$matchShapeExample.coverage" NAME="matchShapeExample Coverage Results" MODIFIED="1536139771169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓/4-轮廓函数" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$light.coverage" NAME="light Coverage Results" MODIFIED="1536916401693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/35-光流" />
     <SUITE FILE_PATH="coverage/opencv_for_python$moreline.coverage" NAME="moreline Coverage Results" MODIFIED="1535613243912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图函数" />
     <SUITE FILE_PATH="coverage/opencv_for_python$exchange.coverage" NAME="exchange Coverage Results" MODIFIED="1536480648667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22-Hough圆环变换" />
     <SUITE FILE_PATH="coverage/opencv_for_python$shape__1_.coverage" NAME="shape (1) Coverage Results" MODIFIED="1536227581718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/2-直方图均衡化" />
@@ -79,25 +81,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="meanshift.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/34-视频分析/1-Meanshift&amp;Camshift/meanshift.py">
+      <file leaf-file-name="light.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/35-光流/light.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="-162">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#121#131#0" expanded="true" />
+                <element signature="e#137#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camshift.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/34-视频分析/1-Meanshift&amp;Camshift/camshift.py">
+      <file leaf-file-name="muchlight.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/35-光流/muchlight.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="648">
+              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
-                <element signature="e#25#35#0" expanded="true" />
+                <element signature="e#65#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3-绘图函数/opencv_logo.py" />
-        <option value="$PROJECT_DIR$/6-图像的基本操作/image_Function.py" />
         <option value="$PROJECT_DIR$/图像上的算术运算/operator.py" />
         <option value="$PROJECT_DIR$/程序性能检测及优化/program.py" />
         <option value="$PROJECT_DIR$/颜色空间转换/color_exchange.py" />
@@ -169,6 +169,8 @@
         <option value="$PROJECT_DIR$/34-视频分析/1-Meanshift&amp;Camshift/video.py" />
         <option value="$PROJECT_DIR$/34-视频分析/1-Meanshift&amp;Camshift/meanshift.py" />
         <option value="$PROJECT_DIR$/34-视频分析/1-Meanshift&amp;Camshift/camshift.py" />
+        <option value="$PROJECT_DIR$/35-光流/muchlight.py" />
+        <option value="$PROJECT_DIR$/35-光流/light.py" />
       </list>
     </option>
   </component>
@@ -237,19 +239,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\opencv-for-python\33-使用特征匹配和单应性查找对象" />
-      <recent name="E:\opencv-for-python\32-特征匹配" />
-      <recent name="E:\opencv-for-python\31-ORB" />
-      <recent name="E:\opencv-for-python\30-BRIEF" />
-      <recent name="E:\opencv-for-python\29-角点检测的FAST算法" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\opencv-for-python\29-角点检测的FAST算法" />
       <recent name="E:\opencv-for-python\21-Hough直线变换\1-opencv中的霍夫变换" />
       <recent name="E:\opencv-for-python\20-模板匹配\1-opencv中的模板匹配" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\35-光流" />
+      <recent name="E:\opencv-for-python\33-使用特征匹配和单应性查找对象" />
+      <recent name="E:\opencv-for-python\32-特征匹配" />
+      <recent name="E:\opencv-for-python\31-ORB" />
+      <recent name="E:\opencv-for-python\30-BRIEF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.camshift">
+  <component name="RunManager" selected="Python.light">
     <configuration name="camshift" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,6 +305,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="light" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/35-光流" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-for-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/35-光流/light.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="meanshift" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,58 +343,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="opencv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="muchlight" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/32-特征匹配" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/35-光流" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32-特征匹配/opencv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="opencv1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/32-特征匹配" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-for-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32-特征匹配/opencv1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/35-光流/muchlight.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.opencv" />
-      <item index="1" class="java.lang.String" itemvalue="Python.opencv1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.image (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.meanshift" />
-      <item index="4" class="java.lang.String" itemvalue="Python.camshift" />
+      <item index="0" class="java.lang.String" itemvalue="Python.image (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.meanshift" />
+      <item index="2" class="java.lang.String" itemvalue="Python.camshift" />
+      <item index="3" class="java.lang.String" itemvalue="Python.light" />
+      <item index="4" class="java.lang.String" itemvalue="Python.muchlight" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.camshift" />
-        <item index="1" class="java.lang.String" itemvalue="Python.meanshift" />
-        <item index="2" class="java.lang.String" itemvalue="Python.image (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.opencv1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.opencv" />
+        <item index="0" class="java.lang.String" itemvalue="Python.light" />
+        <item index="1" class="java.lang.String" itemvalue="Python.muchlight" />
+        <item index="2" class="java.lang.String" itemvalue="Python.camshift" />
+        <item index="3" class="java.lang.String" itemvalue="Python.meanshift" />
+        <item index="4" class="java.lang.String" itemvalue="Python.image (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536839863715</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=":art:视频分析">
+      <created>1536839892118</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1536839892118</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -557,7 +566,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29873127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5898004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6075388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -614,34 +623,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/5-轮廓的层次结构/feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17-OpenCv中的轮廓/3-轮廓的性质/feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/18-直方图/1-直方图的计算，绘制与分析/shape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/18-直方图/2-直方图均衡化/shape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/18-直方图/3-2D直方图/2D.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
@@ -878,27 +859,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#93#111#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/32-特征匹配/Go.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="135" column="48" lean-forward="true" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/32-特征匹配/Go.py" />
     <entry file="file://$PROJECT_DIR$/32-特征匹配/opencv1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#52#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,9 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
           <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#55#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/34-视频分析/1-Meanshift&amp;Camshift/meanshift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="1008">
+          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="e#121#131#0" expanded="true" />
           </folding>
@@ -929,10 +894,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/34-视频分析/1-Meanshift&amp;Camshift/camshift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="24">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35-光流/opticalhsv.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35-光流/opticalfb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35-光流/muchlight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#65#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35-光流/light.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#137#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
