@@ -102,5 +102,4 @@ for fname in glob.glob('*.png'):
         if k == 's':
             cv2.imwrite(fname[:6]+'.png',img)
 
-
 cv2.destroyAllWindows()

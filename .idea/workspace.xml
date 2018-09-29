@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b61fe65d-79bb-48e0-b2b8-612975369041" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/38-姿势估计/image.py" afterPath="$PROJECT_DIR$/38-姿势估计/image.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +18,15 @@
     <SUITE FILE_PATH="coverage/opencv_for_python$mouseCallback.coverage" NAME="mouseCallback Coverage Results" MODIFIED="1535616070955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把鼠标当画笔" />
     <SUITE FILE_PATH="coverage/opencv_for_python$2D.coverage" NAME="2D Coverage Results" MODIFIED="1536235286604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-直方图/3-2D直方图" />
     <SUITE FILE_PATH="coverage/opencv_for_python$operator.coverage" NAME="operator Coverage Results" MODIFIED="1535680711019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图像上的算术运算" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$knnOCR.coverage" NAME="knn手写数字OCR Coverage Results" MODIFIED="1538227846898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39-KNN" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$knn.coverage" NAME="knn Coverage Results" MODIFIED="1538227077930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39-KNN" />
     <SUITE FILE_PATH="coverage/opencv_for_python$saveVideo.coverage" NAME="saveVideo Coverage Results" MODIFIED="1535598380629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/视频" />
     <SUITE FILE_PATH="coverage/opencv_for_python$draw_circle_rectangle.coverage" NAME="draw_circle_rectangle Coverage Results" MODIFIED="1535616085603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把鼠标当画笔" />
     <SUITE FILE_PATH="coverage/opencv_for_python$color_exchange.coverage" NAME="color_exchange Coverage Results" MODIFIED="1535684443108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/颜色空间转换" />
     <SUITE FILE_PATH="coverage/opencv_for_python$harris.coverage" NAME="harris Coverage Results" MODIFIED="1536665876496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25-图像特征提取与描述/1-Harris角点检测" />
     <SUITE FILE_PATH="coverage/opencv_for_python$image.coverage" NAME="image Coverage Results" MODIFIED="1537361934989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/38-姿势估计" />
     <SUITE FILE_PATH="coverage/opencv_for_python$video.coverage" NAME="video Coverage Results" MODIFIED="1537361098821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-摄像机标定" />
-    <SUITE FILE_PATH="coverage/opencv_for_python$image__1_.coverage" NAME="image (1) Coverage Results" MODIFIED="1536836684808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/33-使用特征匹配和单应性查找对象" />
+    <SUITE FILE_PATH="coverage/opencv_for_python$image__1_.coverage" NAME="image (1) Coverage Results" MODIFIED="1538228708555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/40-图像修补" />
     <SUITE FILE_PATH="coverage/opencv_for_python$pallet.coverage" NAME="pallet Coverage Results" MODIFIED="1535965626636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-滑动条做调色板" />
     <SUITE FILE_PATH="coverage/opencv_for_python$image__4_.coverage" NAME="image (4) Coverage Results" MODIFIED="1536740495174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/28-SURF" />
     <SUITE FILE_PATH="coverage/opencv_for_python$edge.coverage" NAME="edge Coverage Results" MODIFIED="1536048360174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-OpenCv中的轮廓" />
@@ -82,37 +85,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="background_decrease.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/36-背景减除/background_decrease.py">
+      <file leaf-file-name="knn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/39-KNN/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="306">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#64#74#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/37-摄像机标定/video.py">
+      <file leaf-file-name="knn手写数字OCR.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/39-KNN/knn手写数字OCR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="258">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
-                <element signature="e#20#30#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="image.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/38-姿势估计/image.py">
+        <entry file="file://$PROJECT_DIR$/40-图像修补/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#33#43#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/9-颜色空间转换/color_exchange.py" />
-        <option value="$PROJECT_DIR$/10-几何变换/exchange.py" />
-        <option value="$PROJECT_DIR$/11-图像阈值/image.py" />
         <option value="$PROJECT_DIR$/图像平滑/image.py" />
         <option value="$PROJECT_DIR$/12-图像平滑/image.py" />
         <option value="$PROJECT_DIR$/13-形态学转换/image.py" />
@@ -184,6 +184,9 @@
         <option value="$PROJECT_DIR$/36-背景减除/background_decrease.py" />
         <option value="$PROJECT_DIR$/37-摄像机标定/video.py" />
         <option value="$PROJECT_DIR$/38-姿势估计/image.py" />
+        <option value="$PROJECT_DIR$/39-KNN/knn.py" />
+        <option value="$PROJECT_DIR$/39-KNN/knn手写数字OCR.py" />
+        <option value="$PROJECT_DIR$/40-图像修补/image.py" />
       </list>
     </option>
   </component>
@@ -193,10 +196,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2391" />
+    <option name="y" value="-9" />
+    <option name="width" value="2018" />
+    <option name="height" value="1093" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -230,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,17 +244,13 @@
             <path>
               <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="37-摄像机标定" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencv-for-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencv-for-python" type="462c0819:PsiDirectoryNode" />
-              <item name="38-姿势估计" type="462c0819:PsiDirectoryNode" />
+              <item name="40-图像修补" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -262,19 +261,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\opencv-for-python\38-姿势估计" />
-      <recent name="E:\opencv-for-python\37-摄像机标定" />
-      <recent name="E:\opencv-for-python\35-光流" />
-      <recent name="E:\opencv-for-python\33-使用特征匹配和单应性查找对象" />
-      <recent name="E:\opencv-for-python\32-特征匹配" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\opencv-for-python\29-角点检测的FAST算法" />
       <recent name="E:\opencv-for-python\21-Hough直线变换\1-opencv中的霍夫变换" />
       <recent name="E:\opencv-for-python\20-模板匹配\1-opencv中的模板匹配" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\3-轮廓的性质" />
       <recent name="E:\opencv-for-python\17-OpenCv中的轮廓\2-轮廓特征" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\opencv-for-python\40-图像修补" />
+      <recent name="E:\opencv-for-python\39-KNN" />
+      <recent name="E:\opencv-for-python\38-姿势估计" />
+      <recent name="E:\opencv-for-python\37-摄像机标定" />
+      <recent name="E:\opencv-for-python\35-光流" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,21 +288,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image">
-    <configuration name="background_decrease" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.image (1)">
+    <configuration name="image (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/36-背景减除" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/40-图像修补" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/36-背景减除/background_decrease.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/40-图像修补/image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,39 +327,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="light" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/35-光流" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/39-KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/35-光流/light.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/39-KNN/knn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="muchlight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="knn手写数字OCR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/35-光流" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/39-KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-for-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/35-光流/muchlight.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/39-KNN/knn手写数字OCR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,19 +385,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.light" />
-      <item index="1" class="java.lang.String" itemvalue="Python.muchlight" />
-      <item index="2" class="java.lang.String" itemvalue="Python.background_decrease" />
-      <item index="3" class="java.lang.String" itemvalue="Python.video" />
-      <item index="4" class="java.lang.String" itemvalue="Python.image" />
+      <item index="0" class="java.lang.String" itemvalue="Python.video" />
+      <item index="1" class="java.lang.String" itemvalue="Python.image" />
+      <item index="2" class="java.lang.String" itemvalue="Python.knn" />
+      <item index="3" class="java.lang.String" itemvalue="Python.knn手写数字OCR" />
+      <item index="4" class="java.lang.String" itemvalue="Python.image (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.image" />
-        <item index="1" class="java.lang.String" itemvalue="Python.video" />
-        <item index="2" class="java.lang.String" itemvalue="Python.background_decrease" />
-        <item index="3" class="java.lang.String" itemvalue="Python.light" />
-        <item index="4" class="java.lang.String" itemvalue="Python.muchlight" />
+        <item index="0" class="java.lang.String" itemvalue="Python.image (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.knn手写数字OCR" />
+        <item index="2" class="java.lang.String" itemvalue="Python.knn" />
+        <item index="3" class="java.lang.String" itemvalue="Python.image" />
+        <item index="4" class="java.lang.String" itemvalue="Python.video" />
       </list>
     </recent_temporary>
   </component>
@@ -584,20 +583,34 @@
       <option name="project" value="LOCAL" />
       <updated>1536916478838</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=":art:图像矫正">
+      <created>1537362079467</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1537362079467</updated>
+    </task>
+    <task id="LOCAL-00026" summary=":art:图像矫正">
+      <created>1537362347771</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1537362347771</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="2391" y="-9" width="2018" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29873127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29501083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64412415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3158436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,25 +669,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/18-直方图/4-直方图反向投影/shape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/19-图像变换/1-傅里叶变换/change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-形态学转换/image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12-图像平滑/hourse.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -926,9 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#137#147#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,38 +927,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#65#75#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/36-背景减除/background_decrease.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="240">
           <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <element signature="e#64#74#0" expanded="true" />
+            <element signature="e#64#74#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/37-摄像机标定/video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="264">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <element signature="e#20#30#0" expanded="true" />
+            <element signature="e#20#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/38-姿势估计/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="386">
+          <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/39-KNN/knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#33#43#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/39-KNN/knn手写数字OCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/40-图像修补/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
